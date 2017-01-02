@@ -1,0 +1,41 @@
+[Text in english is below]
+
+***** Installation *****
+Einfach den kompletten Ordner nach /wp-content/themes/ hochladen und im Admin-Bereich das Theme aktivieren - fertig.
+
+Dieses Template funktioniert nicht in Verbindung mit Popup-Kommentaren --> Kommentare im neuen Popup-Fenster.
+
+***** Lizenz *****
+Dieses Template für Wordpress 1.5 steht unter der GPL-Lizenz (www.opensource.org/licenses/gpl-license.php).
+Im Klartext: du kannst das Template auch für kommerzielle Projekte einsetzen und weitergeben. Allerdings müssen die Copyrighthinweise erhalten bleiben.
+
+***** Unterstützung *****
+Falls es Fragen zum Einbau geben sollte, richte die Anfragen bitte an info@vlad-design.de. Aber beachte bitte das kein Anspruch auf Support besteht.
+
+In meinem privaten Weblog: www.perun.net kannst in www.perun.net/archiv/category/templates/ das jeweilige Template kommentieren bzw. Verbesserungsvorschläge äußern.
+
+**** Individuelles Design *****
+Wünschst für dein Weblog oder Wiki ein individuelles Design, individuelle Anpassungen oder individuellen Support dann kannst du mich über www.vlad-design.de/impressum/ engagieren. Ich übernehme auch kleinere Aufträge.
+
+Viel Spaß mit dem Template.
+
+
+##### ENGLISH #####
+
+*****Installation *****
+Move the Landzilla-Folder to /wp-content/themes/ ans activate Landzilla-Theme in Adminarea - that's it.
+
+This Theme doesn't support the Comments-Popup --> Comments in new Popup-Window.
+
+***** Licence *****
+This Theme is released under GPL: www.opensource.org/licenses/gpl-license.php.
+
+***** Support *****
+If there are any question about the Theme send the requests to info@vlad-design.de. If i have time i will give you an answer.
+
+Enjoy it and sorry for my bad english.
+
+
+Vladimir Simovic aka Perun
+-- 
+www.vlad-design.de - www.perun.net

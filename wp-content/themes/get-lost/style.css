@@ -1,0 +1,369 @@
+/*  
+Theme Name: Get Lost
+Theme URI: http://www.howtogetlost.com/
+Description: Get Lost is a template designed for WordPress 1.5. Design by Sandra Tiano, CSS/HTML by Geoff Sowrey
+Version: 1.0
+Author: Geoff Sowrey
+Author URI: http://www.sowrey.org/
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+*/
+
+body {
+    background-color: #fff; 
+    padding: 1em 0;
+    font: 62.5% verdana, sans-serif;
+    }
+
+hr {
+    display: none;
+    }
+
+img {
+    border: none;
+    }
+
+acronym, abbr, dfn {
+    border-bottom: 1px dashed #eee;
+    font-style: normal;
+    }
+
+blockquote {
+    border: 1px solid #87ac23;
+    margin: 1em 0;
+    padding: 10px;
+    background-color: #E0F7A1;
+    font-style: italic;
+    }
+
+code, pre {
+    color: #f93;
+    font-family: verdana, sans-serif;
+    }
+
+#container {
+    width: 950px;
+    line-height: 150%;
+    }
+    
+#header {
+    position: absolute;
+    top: 36px;
+    left: 36px;
+    width: 412px;
+    height: 65px;
+    z-index: 2;
+    }
+
+#header h1 {
+    /*background: url(/wp-content/themes/get-lost/images/banner4.jpg) 206px 105px no-repeat;*/
+    /*background: url(/media/air.jpg) 206px 105px no-repeat;*/
+    background: url(/media/banner4.jpg) 206px 105px no-repeat;
+    width: 900px;
+    height: 221px;
+    padding: 0;
+    margin: 0;
+    }
+
+#header a {
+    display: block;
+    width: 412px;
+    height: 65px;
+    background: url(/wp-content/themes/get-lost/images/title.gif) no-repeat;
+    text-indent: -9000px;
+    overflow: hidden;
+    }
+
+#content {
+    position: absolute;
+    top: 120px;
+    left: 217px;
+    background: url(/wp-content/themes/get-lost/images/blog-border.gif) 35px 0px repeat-y;
+    }
+    
+#authors,
+#footer,
+.center {
+    background: url(/wp-content/themes/get-lost/images/blog-top.gif) no-repeat;
+    padding: 154px 32px 0px 63px;
+    width: 645px;
+    }
+
+#authors {
+    height: 375px;
+    }
+
+#amy,
+#geoff {
+    width: 300px;
+    padding-top: 30px;
+    margin: 0;
+    }
+
+#amy {
+    background: url(/wp-content/themes/get-lost/images/title-she-said.gif) no-repeat;
+    float: left;
+    border-right: 1px solid black;
+    padding-right: 20px;
+    }
+    
+#geoff {
+    background: url(/wp-content/themes/get-lost/images/title-he-said.gif) no-repeat;
+    float: right;
+    }
+    
+.center {
+    margin: 0 auto;
+    background: none;
+    padding-top: 20px;
+    clear: both;
+    text-align: center;
+    width: 300px;
+    }
+
+.date {
+    font-weight: bold;
+    }
+
+div.story {
+    float: left;
+    clear: right;
+    }
+
+#authors div a {
+    color: #87ac23;
+    text-decoration: none;
+    border-bottom: dashed 1px #87ac23;
+    }
+
+#authors div a.image {
+    border: none;
+    }
+    
+#authors div h2,
+#authors div h2 a {
+    font-size: 1.2em;
+    color: #87ac23;
+    border: none;
+    }
+
+li.done {
+    text-decoration: line-through;
+    }
+
+.feedback,
+div.story div.storycontent {
+    clear: both;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+    }
+
+#authors div.feedback a {
+    border: none;
+    }
+    
+#sidebar {
+    position: absolute;
+    top: 259px;
+    left: 58px;
+    width: 230px;
+    z-index: 2;
+    padding-bottom: 30px;
+    }
+
+#menu {
+    background: url(/wp-content/themes/get-lost/images/menu-background.gif) no-repeat;
+    padding-top: 220px;
+    }
+
+#menu h2,
+#menu ul {
+    font-size: 1.3em;
+    padding: 0;
+    margin: 0;
+    }
+
+#menu h2 {
+    margin: 20px 0 5px 0;
+    font-family: Bauhaus,"Eras Demi ITC",Verdana,Arial,Helvetica,"Sans Serif";
+    font-weight: bold;
+    }
+
+#menu ul li {
+    list-style: none;
+    font-size: 0.8em;
+    }
+    
+#main {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    }
+
+#menu #main ul,
+#footer ul {
+    margin: 5px;
+    padding-left: 10px;
+    }
+
+#menu #main li,
+#footer li {
+    font: bold 1em/1em Bauhaus,"Eras Demi ITC",Verdana,Arial,Helvetica,"Sans Serif";
+    margin-bottom: 10px;
+    list-style-image: url(/wp-content/themes/get-lost/images/icon-menu.gif);
+    }
+
+#menu #main a,
+#footer ul a {
+    display: block;
+    padding: 2px;
+    margin: 0 0 0 8px;
+    background-color: #fff;
+    color: #87ac23;
+    text-decoration: none;
+    width: 70px;
+    }
+
+#menu #main a[title="Home"] {
+    background: url(/wp-content/themes/get-lost/images/menu-home.gif) no-repeat;
+    text-indent: -9000px;
+    }
+
+#menu #main a[title="About"] {
+    background: url(/wp-content/themes/get-lost/images/menu-about-us.gif) no-repeat;
+    text-indent: -9000px;
+    }
+
+#menu #main a[title="Itinerary"] {
+    background: url(/wp-content/themes/get-lost/images/menu-itinerary.gif) no-repeat;
+    text-indent: -9000px;
+    }
+
+#menu #main a[title="Resources"] {
+    background: url(/wp-content/themes/get-lost/images/menu-resources.gif) no-repeat;
+    text-indent: -9000px;
+    }
+
+#menu #main a[title="Gallery"] {
+    background: url(/wp-content/themes/get-lost/images/menu-gallery.gif) no-repeat;
+    text-indent: -9000px;
+    }
+
+#menu #main a[title="Maps"] {
+    background: url(/wp-content/themes/get-lost/images/menu-maps.gif) no-repeat;
+    text-indent: -9000px;
+    }
+
+#menu #main h2 {
+    position: absolute;
+    top: -200px;
+    left: -10px;
+    text-indent: -9000px;
+    height: 134px;
+    width: 134px;
+    background: url(/wp-content/themes/get-lost/images/globe.gif) no-repeat;
+    }    
+    
+#categories {
+    background:url(/wp-content/themes/get-lost/images/title-categories.gif) no-repeat;
+    text-indent: -9000px;
+    height: 19px;
+    width: 85px;
+    }
+
+#archives {
+    background:url(/wp-content/themes/get-lost/images/title-archives.gif) no-repeat;
+    text-indent: -9000px;
+    height: 19px;
+    width: 85px;
+    }
+
+#links {
+    background:url(/wp-content/themes/get-lost/images/title-links.gif) no-repeat;
+    text-indent: -9000px;
+    height: 19px;
+    width: 85px;
+    }
+
+#meta {
+    background:url(/wp-content/themes/get-lost/images/title-meta.gif) no-repeat;
+    text-indent: -9000px;
+    height: 19px;
+    width: 85px;
+    }
+
+#search {
+    position: absolute;
+    top: -200px;
+    left: 655px;
+    width: 225px;
+    }
+
+#search * {
+    display: inline;
+    }
+    
+#search h2 {
+    font: 1.4em/1.4em bold Bauhaus,"Eras Demi ITC",Verdana,Arial,Helvetica,"Sans Serif";
+    margin-right: 5px;
+    background: url(/wp-content/themes/get-lost/title-search.gif) no-repeat;
+    text-indent: -9000;
+    }
+    
+#search input#s {
+    width: 132px;
+    }
+
+#search input#submit {
+    background: url(/wp-content/themes/get-lost/images/button-search.gif) no-repeat;
+    width: 28px;
+    height: 20px;
+    border: none;
+    color: none;
+    cursor: hand;
+    }
+    
+#footer {
+    background: #fff url(/wp-content/themes/get-lost/images/blog-bottom.gif) 35px top no-repeat;
+    padding: 40px 0 40px 0;
+
+    width: 750px;
+    }
+    
+#footer p {
+    margin: 0 0 0 30px;
+    padding: 10px 0 0 0;
+    }
+    
+#footer ul {
+    position: absolute;
+    top: -100px;
+    left: 450px;
+    width: 300px;
+    }
+    
+#footer li {
+    display: inline-block;
+    float: left;
+    }
+
+#footer li a {
+    display: inline-block;
+    width: 120px;
+    height: 15px;
+    }
+
+html[xmlns] #footer li a {
+    text-indent: -9000px;
+    }
+   
+html[xmlns] #contact-amy {
+    background:url(/wp-content/themes/get-lost/images/title-contact-amy.gif) no-repeat;
+    }
+
+html[xmlns] #contact-geoff {
+    background:url(/wp-content/themes/get-lost/images/title-contact-geoff.gif) no-repeat;
+    }
+
